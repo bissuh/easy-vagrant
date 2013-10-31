@@ -1,4 +1,4 @@
 easy-vagrant
 ============
 
-Clean new vagrant angularjs environment setup files
+Clean new vagrant yeaoman, angularjs, node environment setup files
