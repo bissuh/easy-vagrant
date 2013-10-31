@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 9000, host: 9000
   config.vm.network :forwarded_port, guest: 35729, host: 35729
 
-  config.vm.synced_folder "../ingresse-dev", "/vagrant/"
+  config.vm.synced_folder "<path_to_project_folder>", "/vagrant/"
 
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "cookbooks"
