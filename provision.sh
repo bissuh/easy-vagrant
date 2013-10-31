@@ -17,5 +17,5 @@ echo "Installing Node Monitor"
 npm install -g nodemon
 
 echo "Define your Github account"
-git config --global user.name "Bissuh"
-git config --global user.email "bissuh@gmail.com"
+git config --global user.name "<your github name>"
+git config --global user.email "<your github email>"
